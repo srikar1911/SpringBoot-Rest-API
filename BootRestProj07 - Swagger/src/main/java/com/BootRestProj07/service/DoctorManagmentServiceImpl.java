@@ -18,7 +18,7 @@ public class DoctorManagmentServiceImpl implements IDoctorManagmentService {
     @Override
     public String registerDoctor(Doctor doctor) {
         int idVal = doctorRepo.save(doctor).getDocId();
-        return "doctor is saved with Id value"+ idVal;
+        return "doctor is saved with Id value "+ idVal;
     }
 
     @Override
