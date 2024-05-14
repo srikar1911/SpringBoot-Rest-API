@@ -14,5 +14,7 @@ public interface IDoctorManagmentService {
     public String deleteDoctorsByIncomeRange(Double start, Double end);
     public String hikeDoctorIncomebyPercentage(int docId, double percentage);
     
+    //test 
+    
     
 }
