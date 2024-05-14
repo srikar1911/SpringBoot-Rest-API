@@ -13,4 +13,6 @@ public interface IDoctorManagmentService {
     public String deleteByID(int id) throws DoctorNotFoundException;
     public String deleteDoctorsByIncomeRange(Double start, Double end);
     public String hikeDoctorIncomebyPercentage(int docId, double percentage);
+    
+    
 }
