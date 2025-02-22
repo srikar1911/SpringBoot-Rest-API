@@ -14,7 +14,7 @@ import lombok.Data;
 
 @Entity
 @Data
-@Table(name="DOCTOR_INFO")
+@Table(name="DOCTOR_INFO_TABLE_NEWER")
 public class Doctor implements Serializable {
 
     @Id
